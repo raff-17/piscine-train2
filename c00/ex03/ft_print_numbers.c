@@ -1,9 +1,11 @@
-void ft_print_reverse_alphabet(void)
+void	ft_print_numbers(void)
 {
-    char c = 'z';
-    while (c >= 'a')
-    {
-        write(1, &c, 1);
-        c--;
-    }
+	int		i;
+	
+	i = '0';
+	while (i <= '9')
+	{
+		write(1, &i, 1);
+		i++;
+	}
 }
